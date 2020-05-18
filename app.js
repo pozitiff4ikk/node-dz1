@@ -1,8 +1,5 @@
 const path = require('path');
 const fs = require('fs');
-//
-// console.log(__dirname);
-// console.log(__filename);
 
 
 //  fs.readdir(path.join(__dirname, '18'), (err, files) => {
@@ -50,9 +47,6 @@ fs.readdir(path.join(__dirname, '20'), (err, files) => {
     let  a = `20`;
     let  b = `18`
     filling(files,a,b);
-    if (temp){
-
-    }
 });
 
 fs.readdir(path.join(__dirname, 'temp'), (err, files) => {
@@ -61,7 +55,3 @@ fs.readdir(path.join(__dirname, 'temp'), (err, files) => {
     let  b = `20`
     filling(files,a,b);
 });
-
-function finish() {
-
-}
